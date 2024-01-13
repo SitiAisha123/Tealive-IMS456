@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Us</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/x-icon" href="C:\Users\user\OneDrive\Desktop\Resume\favicon.ico">
+<link rel="stylesheet" href="C:\Users\user\OneDrive\Desktop\Resume\style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+  body {
+	  background-color: rgba(111,102,171,1);
+	  background-repeat: no-repeat;
+	  background-size: cover;
+  }
+
+header {
+  background-color: white;
+  padding: 0;
+  margin-left: -10px;
+  margin-right: -7px;
+  margin-top: 5px;
+}
+ 
+  ul li {
+	  width: 200px;
+	  float: right;
+	  text-align: center;
+	  border: 1px; 
+	  solid: white;
+	  color: white;
+	  opacity: 0.8;
+	  font-family: arial;
+	  font-size: 18px;
+	  padding: 0px;
+	  padding-right: 20px;
+	  padding-top: 20px;
+	  transition: opacity 1s;
+	  list-style-type: none;
+  }
+  
+  ul li a {
+	  text-decoration: none;
+	  color: rgba(111,102,171,1);
+  }
+  
+  .text {
+     color: rgba (111,102,171,1);
+	 font-weight: bold;
+  }
+  
+  .text a:hover {
+	  opacity: 1;
+	  color: #64ccc7; 	  
+  }
+  
+.container {
+	padding: 2rem;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;	
+}
+
+  .banner {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+    .banner {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(0%, -50%);
+    color: white;
+    text-align: left;
+	font-family: Arial;
+	font-size: 150%;
+  }
+
+  .banner-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+
+  .banner-text p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+
+footer {
+	background-color: rgba(111,102,171,1);	
+}
+
+.footerContainer {
+	width: 100%;
+	padding: 70px 30px 20px;
+}
+
+.footerNav {
+	margin: 20px 0;
+	padding: 20px;
+}
+
+.footerNav ul {
+	display: flex;
+	margin-top: -20px;
+	margin-left: 350px;
+}
+
+.footerNav ul li a{
+	color: white;
+	font-weight: bold;
+	margin: 20px;
+	text-decoration: none;
+	font-size: 18px;
+	opacity: 0.75;
+	transition: opacity 1s;	
+}
+
+.footerNav ul li a:hover{
+     opacity: 1;
+     color: #64ccc7; 
+}
+
+.socialIcons{
+	display: flex;
+	margin-left: 60px;
+}	
+
+.socialIcons a{
+	text-decoration: none;
+	background-color: white;
+	padding: 10px;
+	margin: 10px;
+	margin-top: -90px;
+	margin-bottom: 50px;
+	border-radius: 50px;	
+}
+
+.socialIcons a i {
+	font-size: 2em;
+	color: black;
+	opacity: 0.9;	
+}
+
+.socialIcons a:hover {
+	background-color: rgba(111,102,171,1);
+	transition: 0.5s;	
+}
+
+.socialIcons a:hover i{
+	color:white;
+	transition: 0.5s;	
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<header>
+<ul>
+   <li class="text"> <a href="Contact Us.html"> Contact Us </a></li>
+   <li class="text"> <a href="Menu.html"> Menu </a></li>
+   <li class="text"> <a href="campaign.html"> Campaign </a></li>
+   <li class="text"> <a href="About Us"> About Us </a></li>
+   <li class="text"> <a href="Tealive.html"> Home </a></li>
+  </ul>
+<br>  
+<img src="https://www.tealive.com.my/images/image/Logo/logo-tealive-03.png" alt="Tealive Logo" style="width:130px; height:30px; margin-left: 50px;">
+<br>
+</header>
+
+<div class="banner">
+  <!-- You can replace 'path/to/your/banner-image.jpg' with the actual path to your banner image -->
+  <img src="https://www.tealive.com.my/images//image/contact_us/website-banner-contact-us.jpg" alt="Banner Image" style="width: 100%; height: auto;">
+    <div class="banner-text">
+    <h1>Please submit your<br>
+	feedback or queries to<br>
+	Tealive Whatsapp Message:<br>
+	012-289 8581</h1>
+  </div>
+</div>
+
+<footer>
+<div class="footerContainer">
+<img src="https://www.tealive.com.my/images/image/Logo/logo-tealive-04.png" alt="Tealive Logo" style="width:130px; height:30px; margin-left: 96px; margin-top: 5px;">
+   <br>
+     <div class="footerNav">
+	   <ul>
+	     <li><a href="https://pickup.tealive.com.my/#/">Order Online</a></li>
+		 <li><a href="https://www.tealive.com.my/privacy-policy">Privacy Policy</a></li>
+	   </ul>
+	  </div>
+	  <br>
+    <div class="socialIcons">
+	   <a href="https://www.facebook.com/tealiveasia/"><i class="fa fa-facebook-square"></i></a>
+	   <a href="https://www.instagram.com/tealiveasia?igsh=MTU2bzVqM3FtdzVxNg=="><i class="fa fa-instagram"></i></a>
+	   <a href="https://www.youtube.com/@TealiveTV"><i class="fa fa-youtube-play"></i></a>
+     </div>
+	    <div class="footerBottom">
+		   <p> Copyright &copy; 2022; Designed by <span class="designer"> Group </span>
+		</div>
+	 </div>
+
+
+</footer>
+
+</body>
+<html>

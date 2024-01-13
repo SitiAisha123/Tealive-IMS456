@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Menu</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/x-icon" href="C:\Users\user\OneDrive\Desktop\Resume\favicon.ico">
+<link rel="stylesheet" href="C:\Users\user\OneDrive\Desktop\Resume\style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+  body {
+	  background-color: rgba(111,102,171,1);
+	  background-repeat: no-repeat;
+	  background-size: cover;
+  }
+
+header {
+  background-color: white;
+  padding: 0;
+  margin-left: -10px;
+  margin-right: -7px;
+  margin-top: 5px;
+}
+ 
+  ul li {
+	  width: 200px;
+	  float: right;
+	  text-align: center;
+	  border: 1px; 
+	  solid: white;
+	  color: white;
+	  opacity: 0.8;
+	  font-family: arial;
+	  font-size: 18px;
+	  padding: 0px;
+	  padding-right: 20px;
+	  padding-top: 20px;
+	  transition: opacity 1s;
+	  list-style-type: none;
+  }
+  
+  ul li a {
+	  text-decoration: none;
+	  color: rgba(111,102,171,1);
+  }
+  
+  .text {
+     color: rgba (111,102,171,1);
+	 font-weight: bold;
+  }
+  
+  .text a:hover {
+	  opacity: 1;
+	  color: #64ccc7; 	  
+  }
+  
+.container {
+	padding: 2rem;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;	
+}
+
+  .banner {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+    .banner {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(0%, -50%);
+    color: white;
+    text-align: left;
+	font-family: Arial;
+	font-size: 150%;
+  }
+
+  .banner-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+   h1 {
+      font-weight: bold;
+      color: rgba(111,102,171,1);
+      text-align: center;
+  }
+
+  h2 {
+      font-weight: bold;
+      color: #f9d100;
+      text-align: center;
+	  font-family: Arial;
+  }
+
+  h3 {
+	  font-weight: bold;
+      color: #ffffff;
+	  font-family: Arial;
+  }
+
+  .category {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+	
+  .subcategory {
+      margin-top: 20px;
+  }
+
+  .menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .menu-item {
+      margin: 10px;
+      text-align: center;
+      background-color: transparent;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+      width: 200px;
+	  padding: 10px;
+  }
+  
+    .menu-item img {
+    width: 100%;
+    height: auto;
+  }
+
+  .menu-item p {
+      color: white;
+      margin: 10px 0;
+    font-weight: bold;
+    font-family: "Arial Narrow";
+  }
+
+  .menu-item:hover {
+      transform: scale(1.05);
+  }
+  
+
+footer {
+	background-color: rgba(111,102,171,1);	
+}
+
+.footerContainer {
+	width: 100%;
+	padding: 70px 30px 20px;
+}
+
+.footerNav {
+	margin: 20px 0;
+	padding: 20px;
+}
+
+.footerNav ul {
+	display: flex;
+	margin-top: -20px;
+	margin-left: 350px;
+}
+
+.footerNav ul li a{
+	color: white;
+	font-weight: bold;
+	margin: 20px;
+	text-decoration: none;
+	font-size: 18px;
+	opacity: 0.75;
+	transition: opacity 1s;	
+}
+
+.footerNav ul li a:hover{
+     opacity: 1;
+     color: #64ccc7; 
+}
+
+.socialIcons{
+	display: flex;
+	margin-left: 60px;
+}	
+
+.socialIcons a{
+	text-decoration: none;
+	background-color: white;
+	padding: 10px;
+	margin: 10px;
+	margin-top: -90px;
+	margin-bottom: 50px;
+	border-radius: 50px;	
+}
+
+.socialIcons a i {
+	font-size: 2em;
+	color: black;
+	opacity: 0.9;	
+}
+
+.socialIcons a:hover {
+	background-color: rgba(111,102,171,1);
+	transition: 0.5s;	
+}
+
+.socialIcons a:hover i{
+	color:white;
+	transition: 0.5s;	
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<!-- Links (sit on top) -->
+<body>
+
+<header style="background-color: white; padding: 0px; margin-left: -10px; margin-right: -7px; margin-top: 5px;">
+<ul>
+   <li class="text"> <a href="Contact Us.html"> Contact Us </a></li>
+   <li class="text"> <a href="Menu.html"> Menu </a></li>
+   <li class="text"> <a href="campaign.html"> Campaign </a></li>
+   <li class="text"> <a href="About us.html"> About Us </a></li>
+   <li class="text"> <a href="Tealive.html"> Home </a></li>
+  </ul>
+<br>  
+<img src="https://www.tealive.com.my/images/image/Logo/logo-tealive-03.png" alt="logo tea" style="width:130px; height:30px; margin-left: 50px;">
+<br>
+</header>
+
+<div class="banner">
+  <!-- You can replace 'path/to/your/banner-image.jpg' with the actual path to your banner image -->
+  <img src="https://www.tealive.com.my/images//image/Menu_page/menu-banner3.jpg" alt="Banner Image" style="width: 100%; height: auto;">
+    <div class="banner-text">
+    <h1>Menu</h1>
+  </div>
+</div>
+
+<br>
+
+<div class="category">
+    <h2>Drinks</h2>
+
+    <div class="subcategory">
+        <center><h3>Signature Bang Bang</h3>
+        <div class="menu-container">
+            <div class="menu-item">
+                <img src="https://www.tealive.com.my/media/k2/items/cache/4965657af186b9092c7a96976ffe881c_M.jpg?t=20221019_025916" alt="Bang Bang Chocolate with Brown Sugar Warm Pearls">
+                <p style="font-family:Arial Narrow">Bang Bang Chocolate with Brown Sugar Warm Pearls</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://www.tealive.com.my/media/k2/items/cache/9b2c4b44fb86522964124ed80d03c5e8_M.jpg?t=20221019_064535" alt="Bang Bang Fresh Milk with Brown Sugar Warm Pearls">
+                <p style="font-family:Arial Narrow">Bang Bang Fresh Milk with Brown Sugar Warm Pearls</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://www.tealive.com.my/media/k2/items/cache/f4b6dca0e2911082f0eb6e1df1a0e11d_M.jpg?t=20221019_064843" alt="Bang Bang Milk Tea with Brown Sugar Warm Pearls">
+                <p style="font-family:Arial Narrow">Bang Bang Milk Tea with Brown Sugar Warm Pearls</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="subcategory">
+        <center><h3>Milk Tea</h3>
+        <div class="menu-container">
+            <div class="menu-item">
+                <img src="https://www.tealive.com.my/media/k2/items/cache/787ae9ec9023a82f5aa7e4c1a64f73cb_M.jpg?t=20221019_065530" alt="Signature Brown Sugar Pearl Milk Tea">
+                <p style="font-family:Arial Narrow">Signature Brown Sugar Pearl Milk Tea</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://www.tealive.com.my/media/k2/items/cache/bad5624cc86e63e5d60645e4f808fc7a_M.jpg" alt="Belgian Lotus Biscoff Milk Tea">
+                <p style="font-family:Arial Narrow">Belgian Lotus Biscoff Milk Tea</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://www.tealive.com.my/media/k2/items/cache/5fb33f3d4b39fe2945380c24d84b225a_M.jpg" alt="Aren Caramel Pearl Milk Tea">
+                <p style="font-family:Arial Narrow">Aren Caramel Pearl Milk Tea</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="subcategory">
+        <center><h3>Coco & Smoothie</h3>
+        <div class="menu-container">
+            <div class="menu-item">
+                <img src="https://www.tealive.com.my/media/k2/items/cache/ccb4e23c8aa216f1e96d31ab209c036b_M.jpg?t=20230705_024853" alt="Signature Coco">
+                <p style="font-family:Arial Narrow">Signature Coco</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://www.tealive.com.my/media/k2/items/cache/dbb31cd5d0f38e8f6ccbb5456d140857_M.jpg?t=20231122_011004" alt="Strawberry Oreo Smoothie">
+                <p style="font-family:Arial Narrow">Strawberry Oreo Smoothie</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://www.tealive.com.my/media/k2/items/cache/36fdb1a35cd2f54f95cf2119fb5bc7ed_M.jpg?t=20231025_004142" alt="Coco Oreo Smoothie">
+                <p style="font-family:Arial Narrow">Coco Oreo Smoothie</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="subcategory">
+        <center><h3>Fruity Smoothie</h3>
+        <div class="menu-container">
+            <div class="menu-item">
+                <img src="https://www.tealive.com.my/media/k2/items/cache/081844b8a29c886d25746ccb5304f59d_M.jpg?t=20231025_025135" alt="Cream Cloud Grape Velvet Smoothie">
+                <p style="font-family:Arial Narrow">Cream Cloud Grape Velvet Smoothie</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://www.tealive.com.my/media/k2/items/cache/e3823fe2e02931eee83f491ba1ee32af_M.jpg" alt="Strawberry Pudding Smoothie">
+                <p style="font-family:Arial Narrow">Strawberry Pudding Smoothie</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://www.tealive.com.my/media/k2/items/cache/f1b8aeeb90e87d86cd6bf72988291f00_M.jpg?t=20231025_025040" alt="Cream Cloud Mango Passionfruit Smoothie">
+                <p style="font-family:Arial Narrow">Cream Cloud Mango Passionfruit Smoothie</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="category">
+    <h2>Tealive Eats</h2>
+
+    <div class="subcategory">
+        <center><h3>Snacks</h3>
+        <div class="menu-container">
+            <div class="menu-item">
+                <img src="https://www.tealive.com.my/media/k2/items/cache/d48ed900e79fa9547169c26138b4cd8d_M.jpg?t=20221019_071718" alt="Cheezy Chicken Roll Banjir">
+                <p style="font-family:Arial Narrow">Cheezy Chicken Roll Banjir</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://www.tealive.com.my/media/k2/items/cache/852967248dd3e6cb3942a1fe6af42945_M.jpg?t=20221019_071809" alt="Korean Spicy Popcorn Chicken Banjir">
+                <p style="font-family:Arial Narrow">Korean Spicy Popcorn Chicken Banjir</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://www.tealive.com.my/media/k2/items/cache/deb45d333d0414ba3de42155789fdb4a_M.jpg?t=20221019_071751" alt="Cheezy Popcorn Chicken Banjir">
+                <p style="font-family:Arial Narrow">Cheezy Popcorn Chicken Banjir</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="subcategory">
+        <center><h3>Softea</h3>
+        <div class="menu-container">
+            <div class="menu-item">
+                <img src="https://www.tealive.com.my/media/k2/items/cache/358873fad4914931314b94f2036b503a_M.jpg?t=20221019_071920" alt="Tealive Bubble Softea">
+                <p style="font-family:Arial Narrow">Tealive Bubble Softea</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://www.tealive.com.my/media/k2/items/cache/88f135a483ef01fac8d7b920488085e4_M.jpg?t=20221019_071945" alt="Tealive Softea Cone">
+                <p style="font-family:Arial Narrow">Tealive Softea Cone</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+<div class="footerContainer">
+<img src="https://www.tealive.com.my/images/image/Logo/logo-tealive-04.png" alt="Tealive Logo" style="width:130px; height:30px; margin-left: 96px; margin-top: 5px;">
+   <br>
+     <div class="footerNav">
+	   <ul>
+	     <li><a href="https://pickup.tealive.com.my/#/">Order Online</a></li>
+		 <li><a href="Contact Us.html">Contact Us</a></li>
+		 <li><a href="https://www.tealive.com.my/privacy-policy">Privacy Policy</a></li>
+	   </ul>
+	  </div>
+	  <br>
+    <div class="socialIcons">
+	   <a href="https://www.facebook.com/tealiveasia/"><i class="fa fa-facebook-square"></i></a>
+	   <a href="https://www.instagram.com/tealiveasia?igsh=MTU2bzVqM3FtdzVxNg=="><i class="fa fa-instagram"></i></a>
+	   <a href="https://www.youtube.com/@TealiveTV"><i class="fa fa-youtube-play"></i></a>
+
+     </div>
+	    <div class="footerBottom">
+		   <p> Copyright &copy; 2022; Designed by <span class="designer"> N5IM244EKA </span>
+		</div>
+	 </div>
+
+
+</footer>
+
+</body>
+</html>
